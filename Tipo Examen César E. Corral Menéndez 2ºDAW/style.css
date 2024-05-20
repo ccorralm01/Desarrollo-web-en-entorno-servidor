@@ -1,0 +1,54 @@
+
+table td {
+    height: 20px;
+    width: 100px;
+    font-size: large;
+}
+
+table{
+    border: 4px solid black;
+    margin: 5px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form div{
+    margin: 5px;
+}
+.boton{
+    margin: 5px;
+    height: 30px;
+    width: 80px;
+}
+.texto{
+    text-align: justify;
+    height: 60px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.verde, .rojo{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+    font-size: 35px;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.tablas{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
